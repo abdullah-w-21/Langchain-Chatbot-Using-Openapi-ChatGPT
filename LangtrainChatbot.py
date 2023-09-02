@@ -14,11 +14,11 @@ import os
 
 def query(usrtxt):
 # OpenAI API key
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
 
 
 # Get the PDF File
-    reader = PdfReader('C:\\Users\\BN GAMING\\PycharmProjects\\Chatbot2\\pdf\\Veridian-01-508_Frequently Asked Questions-merged.pdf')
+    reader = PdfReader('PATH TO PDF FILES')
 
 # Read data from the Pdf file
     pdf_text = ''
